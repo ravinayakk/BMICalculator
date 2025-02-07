@@ -6,4 +6,9 @@ public partial class BMICalcPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private void BtnCalculateBMI_Clicked(object sender, EventArgs e)
+	{
+		
+	}
 }
