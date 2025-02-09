@@ -57,7 +57,7 @@
             <Label Text="Height (inches)"
                HorizontalOptions="Center" 
                FontSize="Body"/>
-            <Slider ThumbColor="HotPink"
+            <Slider ThumbColor="HotPink" MinimumTrackColor="HotPink" MaximumTrackColor="HotPink"
                 x:Name="SliderHeight"
                 Minimum="0"
                 Maximum="100"
@@ -71,7 +71,7 @@
             <Label Text="Weight (lbs)"
                HorizontalOptions="Center" 
                FontSize="Body"/>
-            <Slider ThumbColor="HotPink"
+            <Slider ThumbColor="HotPink" MinimumTrackColor="HotPink" MaximumTrackColor="HotPink"
                 x:Name="SliderWeight"
                 Minimum="0"
                 Maximum="300"
