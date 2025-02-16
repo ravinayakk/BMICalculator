@@ -74,6 +74,7 @@ public partial class RecomPage : ContentPage
 
         LblHealthRec.Text = message;
 
+
     }
 
     private void Button_Clicked(object sender, EventArgs e)

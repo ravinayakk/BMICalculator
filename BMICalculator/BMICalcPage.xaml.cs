@@ -26,8 +26,8 @@ public partial class BMICalcPage : ContentPage
         double height = double.Parse(LblHeight.Text);
         double weight = double.Parse(LblWeight.Text);
         double bmi = (weight * 703) / (height * height);
+        int roundedBmi = (int)Math.Round(bmi); 
 
-        //DisplayAlert("Your calculated BMI results are: ", message, "OK");
-        Navigation.PushAsync(new BMIPage(bmi));
+        Navigation.PushAsync(new BMIPage(roundedBmi));
     }
 }
