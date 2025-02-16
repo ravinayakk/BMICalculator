@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculator.BMIPage"
+             Title="BMIPage">
+    <VerticalStackLayout Spacing="50" Margin="20">
+        <Label 
+            Text="BMI Result Page"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Frame HorizontalOptions="Center"
+               Padding="50"
+               HasShadow="True"
+               BorderColor="AntiqueWhite"
+               >
+            <VerticalStackLayout Spacing="10">
+                <Label Text="Your BMI is" HorizontalOptions="Center" FontSize="40"/>
+                <Label x:Name="LblBMI" HorizontalOptions="Center" FontSize="40"/>
+                <Button Text="Recommendations" Clicked="Button_Clicked"/>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

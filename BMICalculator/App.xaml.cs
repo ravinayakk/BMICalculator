@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new BMICalcPage();
+            MainPage = new NavigationPage(new BMICalcPage());
         }
     }
 }
